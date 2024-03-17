@@ -1,0 +1,47 @@
+*::before, *::after, *{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__form {
+    width: 100%;
+}
+.hero__form *{
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+}
+.hero__table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.hero__table th{
+    padding: 1rem;
+}
+.hero__table th, .hero__table td{
+    font-size: 20px;
+    text-align: center;
+}
+.hero__table td button{
+    padding: 1rem;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+.hero__form-btn--box{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.hero__form-btn--box button{
+    margin: 0rem 1rem;
+}

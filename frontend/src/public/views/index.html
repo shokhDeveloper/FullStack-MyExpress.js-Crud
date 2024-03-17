@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <template class="js-user-temp">
+        <tr class="hero__table-row">
+            <tr class="hero__table-row ">
+                <td class="js-number">1</td>
+                <td class="js-name">Name</td>
+                <td class="js-age">Age</td>
+                <td class="js-gender">Gender</td>
+                <td><button class="js-update">Update</button> </td>
+                <td><button class="js-delete">Delete</button> </td>
+            </tr>
+        </tr>
+    </template>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__form-box">
+                    <form class="hero__form js-form" >
+                        <input class="hero__form-name" type="text" placeholder="Firstname" id="name" name="firstName">
+                        <input class="hero__form-age" type="number" placeholder="Age" id="age" name="age">
+                        <select class="hero__form-gender" type="text" id="gender" name="gender">
+                            <option value="" hidden>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <button>Delete</button>
+                        <div class="hero__form-btn--box">
+                            <button class="js-form-filter" id="all" type="button">All</button>
+                            <button class="js-form-filter" id="male" type="button">Male</button>
+                            <button class="js-form-filter" id="female" type="button">Female</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="hero__inner">
+                    <table class="hero__table" border="1">
+                        <thead>
+                            <tr>
+                                <th>NO</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Gender</th>
+                                <th>Update</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody class="js-table-body">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>    
+
+    <script src="../JavaScript/types.js"></script>
+    <script src="../JavaScript/request.js"></script>
+    <script src="../JavaScript/index.js"></script>
+</body>
+</html> 

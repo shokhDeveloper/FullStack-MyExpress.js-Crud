@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "Shohijahon",
+        "age": "17",
+        "gender": "male",
+        "userId": 1
+    },
+    {
+        "firstName": "Abror",
+        "age": 21,
+        "gender": "female",
+        "userId": 2
+    },
+    {
+        "firstName": "Sardor",
+        "age": "18",
+        "gender": "male",
+        "userId": 3
+    },
+    {
+        "firstName": "Ramazon",
+        "age": "21",
+        "gender": "female",
+        "userId": 4
+    },
+    {
+        "firstName": "Leo",
+        "age": "36",
+        "gender": "male",
+        "userId": 5
+    },
+    {
+        "firstName": "leo",
+        "age": "10",
+        "gender": "male",
+        "userId": 6
+    }
+]
